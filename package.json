@@ -1,0 +1,45 @@
+{
+  "name": "quasar-project",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "Quasar App",
+  "author": "Berkan <yusufbk92@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@tomtom-international/web-sdk-maps": "^6.23.0",
+    "@tomtom-international/web-sdk-services": "^6.23.0",
+    "axios": "^1.4.0",
+    "firebase": "^9.21.0",
+    "mapbox-gl": "^1.13.2",
+    "pinia": "^2.0.11",
+    "quasar": "^2.6.0",
+    "uuid": "^9.0.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0",
+    "@vue-leaflet/vue-leaflet": "^0.9.0",
+    "autoprefixer": "^10.4.2",
+    "leaflet": "^1.9.4",
+    "postcss": "^8.4.14",
+    "workbox-build": "^6.6.0",
+    "workbox-cacheable-response": "^6.6.0",
+    "workbox-core": "^6.6.0",
+    "workbox-expiration": "^6.6.0",
+    "workbox-precaching": "^6.6.0",
+    "workbox-routing": "^6.6.0",
+    "workbox-strategies": "^6.6.0"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
