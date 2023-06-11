@@ -1,1 +1,1 @@
-web: npx quasar dev
+web: npx quasar serve

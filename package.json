@@ -7,8 +7,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "dev": "quasar dev",
-    "build": "quasar build",
+    "dev": "npx quasar dev",
+    "build": "npx quasar build",
     "start": "npx quasar serve"
   },
   "dependencies": {
